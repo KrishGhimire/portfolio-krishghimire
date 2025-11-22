@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://wallpapercave.com/wp/wp9151412.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.about {
+    color: white;
+    margin-top: 80px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.description {
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 12px;
+    font-size: 17px;
+    background: #00bfff;
+    border: none;
+    border-radius: 8px;
+    color: #111;
+    font-weight: 600;
+    cursor: pointer;
+}
