@@ -8,77 +8,106 @@ body {
     background-image: url('https://wallpapercave.com/wp/wp9151412.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
 header {
-    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: #111;
-    color: white;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.7);
     position: sticky;
     top: 0;
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
 }
 
 nav a {
-    margin: 0 15px;
+    margin-left: 20px;
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
 }
 
-.about {
-    color: white;
-    margin-top: 80px;
-    font-size: 36px;
+.section-title {
     text-align: center;
+    font-size: 32px;
+    margin-top: 60px;
     font-weight: bold;
 }
 
 .description {
-    color: white;
-    margin-top: 20px;
-    font-size: 18px;
     text-align: center;
-    font-weight: bold;
+    margin: 20px auto;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.project-list {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    padding: 30px;
+    border: 2px solid white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .contact-form {
-    width: 100%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 450px;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
     padding: 12px;
-    font-size: 16px;
-    border: 2px solid #ccc;
     border-radius: 8px;
+    border: none;
     outline: none;
+    font-size: 15px;
 }
 
 .contact-form button {
     padding: 12px;
-    font-size: 17px;
+    border-radius: 8px;
     background: #00bfff;
     border: none;
-    border-radius: 8px;
-    color: #111;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 600px) {
+    .logo { font-size: 22px; }
+    nav a { margin-left: 10px; font-size: 14px; }
+    .box { width: 150px; }
 }
