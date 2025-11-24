@@ -111,3 +111,14 @@ footer {
     nav a { margin-left: 10px; font-size: 14px; }
     .box { width: 150px; }
 }
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute; 
+    left: 20px;         
+    top: 60px;          
+}
+
+  
